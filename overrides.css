@@ -1,0 +1,46 @@
+.intro-text div {
+  text-shadow:
+   -1px -1px 0 #222,
+    1px 0px 0 #222,
+    -1px 0px 0 #222,
+     1px 0px 0 #222;
+}
+
+.section-subheading {
+    line-height: 1.75;
+}
+
+.text-brighter {
+    color: #bbb;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
+
+.filler {
+    height: 80px;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-brand img {
+  animation: spin 5s infinite cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.clients .heading {
+    margin-bottom: 20px;
+}
+
+.clients img {
+    max-height: 80px;
+}
+
+#portfolio .portfolio-item .portfolio-link img.img-responsive {
+    height: auto;
+}
