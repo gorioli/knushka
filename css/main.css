@@ -42,6 +42,14 @@ a {
     color: #fed136;
 }
 
+a.link{
+    color: #fed136;
+    background: #222222;
+    padding: 2px 7px;
+    text-shadow: none;
+}
+
+
 a:hover,
 a:focus,
 a:active,
@@ -388,7 +396,7 @@ section h3.section-subheading {
 }
 
 #portfolio img {
-    height: 330px !important;
+    height: 288px !important;
     width: 423px;
     padding-left: 23px;
 }
